@@ -1,5 +1,0 @@
-PROJECT 2 : UDP PINGERI tried my code with servername as csil-cpu6.csil.sfu.ca and port = 8080 and 1030.Test 1:   I have added sufficient codes to show what I’m doing in my code.Test 2:   When I type  java PingClient servername port, I get default                    number (i.e. 3) of replies from the server.Test 3:    When I type java PingClient servername port 10,        	  1.) With a loss rate of 0, it recieves 10 replies from the server with no 
-              timeout and the statistics seemed to be correct too. 	Test 4:   When I type java PingClient servername port 10,	1.) With a loss rate of 0.5, it receives only 4 replies from the server and 6 
-            packets are lost. It prints a timeout message every time no reply is 
-            received.	2.) With a loss rate of 0.8, it receives only 2 replies from the server and 8 
-            packets are lost. It prints a timeout message every time no reply is received.I did not saw any particular bug in my code.
